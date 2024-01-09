@@ -1,5 +1,5 @@
 # project-1 Team 3
-_Hello_ `Markdown` **Here**!
+
 Team Members: Jon Thomas, Dawn Reyes, Mica Zier
 
 Background:
