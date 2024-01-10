@@ -20,6 +20,34 @@ Team Members: Jon Thomas, Dawn Reyes, Mica Zier
 
 -To generate data for "Telehealth" analsysis, run file:  "Dawn's file.ipynb"
 
--To generate data fro "Internet Access" analysis, run file: "Jon's file.ipynb"
+-To generate data for "Internet Access" analysis, run file: "project1Group3.ipynb"
+  To successfully load the project1Group3.ipynb file you will need to import into your jupyter project the following dependencies.
+  
+        import pandas as pd
+        from pathlib import Path
+        import matplotlib.pyplot as plt
+        import numpy as np
+        #import contextily as ctx
+        import geopandas as gpd
+        import os
+        import seaborn as sns
+        
+  It is also suggested to mute warnings due to head file issues.
+  
+        import warnings
+        warnings.filterwarnings('ignore')
+
+Data source files are located at the following addresses and provide the necessary information for all graphs and tables.
+
+# File to Load (Remember to Change These as Necessary)
+hospital_data_to_load = Path("../data_folder/analysis_data.csv")
+states = gpd.read_file("../data_folder/data/usa-states-census-2014.shp")
+
+# Load Project Data Into Jupyter
+analysis_data = pd.read_csv(hospital_data_to_load)
+
+# Read shapefile using geopandas
+states = states.to_crs("EPSG:3395")
+  
 
 -To generate data for "Correleations" analysis, run file: "Correlations.ipynb"
