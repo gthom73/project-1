@@ -2,9 +2,11 @@
 
 Team Members: Jon Thomas, Dawn Reyes, Mica Zier
 
--Background:
--Approach: 
--Conclusions: 
+-Background: Team 3 selected the topic of Healthcare and Technology, specifically looking at how Telehealth is helping to close the Healthcare Divide 
+
+-Approach: Healthcare industry is undergoing a digital transformation, which will result in increased use of technology in patient care. Knowing Internet Access is a factor in Telehealth Adoption, team reviewed Internet Access rates versus current Telehealth usage in order to determine if patients were ready for the shift in care 
+
+-Analysis: https://docs.google.com/presentation/d/1gKNeTSREXB53T6KMV5lfzUwxPE1AU3Yc41IM7w-VgB0/edit?usp=sharing
 
 -Data Documentation: 
 
