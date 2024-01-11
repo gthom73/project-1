@@ -1,6 +1,7 @@
 # project-1 Team 3
 
-# Team Members: Jon Thomas, Dawn Reyes, Mica Zier
+# Team Members: 
+Jon Thomas, Dawn Reyes, Mica Zier
 
 # Background: 
 Team 3 selected the topic of Healthcare and Technology, specifically looking at how Telehealth is helping to close the Healthcare Divide 
@@ -20,11 +21,10 @@ https://docs.google.com/presentation/d/1gKNeTSREXB53T6KMV5lfzUwxPE1AU3Yc41IM7w-V
 -FCC's Connect2Health Map, Broadband Data by state. "The Connect2HealthFCC Task Force’s platform Mapping Broadband Health in America 2023 allows users to visualize, intersect, and analyze broadband and health data at the national, state and county levels – informing policy and program prescriptions, future innovations, and investment decisions. This data visualization tool is especially timely given the recent COVID-19 national public health emergency, when telehealth became increasingly critical to meeting the needs of Americans, especially those residing in rural areas. This experience shifted the way in which many Americans access healthcare.". File name Connect2Health_2023_state.csv. Availalbe for download here: https://www.fcc.gov/reports-research/maps/connect2health/map.html#ll=31.5,-96.4&z=4&t=broadband&hmt=opioid&bbm=fixed_access&dmf=none&ino=none&zlt=county
 
 # To generate clean data file for Analysis: 
-
--Run file "Data for analaysis.ipynb"
+Run file github.com/gthom73/project-1/Mica/Data for Analysis.ipynb
 
 # To generate data for "Telehealth" analsysis
-Run file:  "Dawn's file.ipynb"
+Run file:  github.com/gthom73/project-1/dawn1/Dawn's file.ipynb
 
 # To generate data for "Internet Access" analysis:
 Run file: "project1Group3.ipynb"
@@ -57,4 +57,4 @@ analysis_data = pd.read_csv(hospital_data_to_load)
 states = states.to_crs("EPSG:3395")
 
 # To generate data for "Correleations" analysis:
-Run file: "Correlations.ipynb"
+Run file: github.com/gthom73/project-1/Mica/Correlations.ipynb
